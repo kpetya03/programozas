@@ -1,6 +1,9 @@
 body {
   background-color: rgb(111, 111, 111);
   background-size: cover;
+  background-image:url(Back.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 p {
@@ -13,6 +16,10 @@ p {
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding: 30px;
 }
 
 a {
@@ -37,4 +44,53 @@ li {
 table {
   width: 80%;
   margin: auto;
+}
+
+.operator
+{
+  color: #087AC8;
+  font-weight: bold;
+}
+
+#szam
+{
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+p
+{
+  text-align: justify;
+  text-indent: 0em;
+  line-height: 120%;
+}
+
+table
+{
+  border: 1px solid gray;
+  text-align: center
+}
+
+td
+{
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+th
+{
+  color: white;
+  background-color: #087AC8;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+a:hover
+{
+  color: red;
 }
